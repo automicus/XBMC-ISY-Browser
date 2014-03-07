@@ -1,8 +1,7 @@
 ISY Browser
 
 DESCRIPTION:
-ISY Browser is part of the ISY Events add-on set. The ISY Browser allows the devices, 
-scenes, and programs on an ISY controller to be browsed and manipulated.
+ISY Browser is part of the ISY Events add-on set. The ISY Browser allows the devices, scenes, and programs on an ISY controller to be browsed and manipulated.
 
 For more information, please see the Automicus website.
 

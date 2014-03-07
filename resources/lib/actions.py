@@ -62,12 +62,12 @@ def ShowNodeInfo(addr):
 
     if type == 'node':
         output = name + ' (' + str(int(float(status) / 255.0 * 100.0)) + '%)' \
-            + '\n' + shared.translate(33002) + ': ' + str(addr)
+            + '\n' + shared.translate(30302) + ': ' + str(addr)
     else:
-        output = name + '\n' + shared.translate(33002) + ': ' + str(addr)
+        output = name + '\n' + shared.translate(30302) + ': ' + str(addr)
 
     dialog = xbmcgui.Dialog()
-    dialog.ok(shared.translate(33001), output)
+    dialog.ok(shared.translate(30301), output)
 
 
 def ShowProgramInfo(addr):
@@ -79,10 +79,10 @@ def ShowProgramInfo(addr):
     on the screen.
     '''
 
-    output = shared.translate(33002) + ': ' + str(addr)
+    output = shared.translate(30302) + ': ' + str(addr)
 
     dialog = xbmcgui.Dialog()
-    dialog.ok(shared.translate(33001), output)
+    dialog.ok(shared.translate(30301), output)
 
 
 def ShowAddonConfig(addr):

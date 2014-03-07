@@ -1,4 +1,5 @@
 ISY Browser
+plugin.program.isybrowse
 
 DESCRIPTION:
 ISY Browser is part of the ISY Events add-on set. The ISY Browser allows the devices, scenes, and programs on an ISY controller to be browsed and manipulated.

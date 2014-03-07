@@ -14,7 +14,7 @@
         <summary lang="en">ISY-99 Node and Program Browser</summary>
         <description lang="en">Allows the user to browse and control the nodes and programs available on a local ISY Home Automation Controller. Using this addon, the user can directly control Insteon and X10 devices natively from the XBMC interface.
         
-        Instructions at: https://code.google.com/p/isy-events/</description>
+        Instructions at: http://automic.us/projects/isy-events/</description>
         <disclaimer lang="en">This addon requires an ISY-99 Series Controller available from Universal Devices Inc (www.universal-devices.com) and must be setup to connect to it.</disclaimer>
         <license>GNU GENERAL PUBLIC LICENSE. Version 2, June 1991</license>
         <forum>http://forum.xbmc.org/showthread.php?tid=146503</forum>

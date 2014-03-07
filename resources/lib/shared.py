@@ -66,7 +66,7 @@ def initialize(args):
 
     # verify isy opened correctly
     if self.isy.__dummy__:
-        header = self.translate(35001)
-        message = self.translate(35002)
+        header = self.translate(30501)
+        message = self.translate(30502)
         xbmc.executebuiltin('Notification(' + header + ','
                             + message + ', 15000)')

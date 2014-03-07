@@ -46,7 +46,7 @@ class main(object):
         DESCRIPTION:
         Creates the root directory.
         '''
-        item = {'name': shared.translate(34001),
+        item = {'name': shared.translate(30401),
                 'browsing': 'nodes',
                 'node_type': 'folder',
                 'context_menu': [],
@@ -55,7 +55,7 @@ class main(object):
                 'node_action': None,
                 'node_parent': None}
         self.listing.append(item)
-        item = {'name': shared.translate(34002),
+        item = {'name': shared.translate(30402),
                 'browsing': 'programs',
                 'node_type': 'folder',
                 'context_menu': [],
@@ -66,7 +66,7 @@ class main(object):
         self.listing.append(item)
 
         if self.events_enabled:
-            item = {'name': shared.translate(34003),
+            item = {'name': shared.translate(30403),
                     'browsing': None,
                     'node_type': 'builtin',
                     'context_menu': [],
@@ -239,41 +239,41 @@ def createContext(onoff=False, toggle=False, dim=False, run=False,
 
     if onoff:
         new_items = [
-            (shared.translate(32001), 'on'),
-            (shared.translate(32002), 'off'),
-            (shared.translate(32004), 'faston'),
-            (shared.translate(32005), 'fastoff')]
+            (shared.translate(30201), 'on'),
+            (shared.translate(30202), 'off'),
+            (shared.translate(30204), 'faston'),
+            (shared.translate(30205), 'fastoff')]
         for item in new_items:
             menu.append(item)
 
     if toggle:
         new_items = [
-            (shared.translate(32003), 'toggle')]
+            (shared.translate(30203), 'toggle')]
         for item in new_items:
             menu.append(item)
 
     if dim:
         new_items = [
-            #(shared.translate(32006), 'bright'),
-            #(shared.translate(32007), 'dim'),
-            (shared.translate(32008), 'on25'),
-            (shared.translate(32009), 'on50'),
-            (shared.translate(32010), 'on75'),
-            (shared.translate(32011), 'on100')]
+            #(shared.translate(30206), 'bright'),
+            #(shared.translate(30207), 'dim'),
+            (shared.translate(30208), 'on25'),
+            (shared.translate(30209), 'on50'),
+            (shared.translate(30210), 'on75'),
+            (shared.translate(30211), 'on100')]
         for item in new_items:
             menu.append(item)
 
     if run:
         new_items = [
-            (shared.translate(32013), 'run'),
-            (shared.translate(32014), 'then'),
-            (shared.translate(32015), 'else')]
+            (shared.translate(30213), 'run'),
+            (shared.translate(30214), 'then'),
+            (shared.translate(30215), 'else')]
         for item in new_items:
             menu.append(item)
 
     if program:
-        menu.append((shared.translate(32012), 'pinfo'))
+        menu.append((shared.translate(30212), 'pinfo'))
     else:
-        menu.append((shared.translate(32012), 'info'))
+        menu.append((shared.translate(30212), 'info'))
 
     return menu
